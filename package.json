@@ -1,0 +1,33 @@
+{
+  "name": "ethscam",
+  "version": "1.0.0",
+  "description": "scam of ether private key for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/emerabet/EthScam.git"
+  },
+  "keywords": [
+    "scam",
+    "eth",
+    "ether"
+  ],
+  "author": "tbailleu, emerabet, lfujimoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emerabet/EthScam/issues"
+  },
+  "homepage": "https://github.com/emerabet/EthScam#readme",
+  "dependencies": {
+    "big-integer": "^1.6.32",
+    "ethereumjs-util": "^5.2.0",
+    "etherscan": "^0.2.2",
+    "fs": "0.0.1-security",
+    "randomhex": "^0.1.5",
+    "request": "^2.87.0",
+    "web3": "^1.0.0-beta.34"
+  }
+}
